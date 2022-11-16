@@ -23,6 +23,6 @@ class model extends GetxController {
   }
 
   void calculate() {
-      
+
   }
 }
