@@ -55,13 +55,21 @@ class first extends StatelessWidget {
               m.third(value!);
             },
           ),),
-          ElevatedButton(onPressed: () {
-                m.calculate();
-          }, child: Text("Calculate")),
-
-          Obx(() => Text("Sum=${m.answer}"),)
+         // Obx(() =>  uttam(),),
+          Obx(() => Text("Sum=${m.answer}",style: TextStyle(fontSize: 20),),)
         ],
       ),
     );
   }
+  // uttam()
+  // {
+  //   if(m.val1.isTrue)
+  //     {
+  //      return Obx(() => Text("${m.f}"));
+  //     }
+  //   else
+  //     {
+  //       return Obx(() => Text("0"));
+  //     }
+  // }
 }
