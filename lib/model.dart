@@ -9,7 +9,6 @@ class model extends GetxController {
   RxInt s = 400.obs;
   RxInt t = 150.obs;
   RxInt answer = 0.obs;
-
   void first(bool v1) {
     val1.value = !val1.value;
   }
